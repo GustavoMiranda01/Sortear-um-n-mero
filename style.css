@@ -63,34 +63,32 @@ button {
     margin: 80px 205px;
 }
 
-button.hover {
+button:hover {
     opacity: 0.9;
 }
 
-button.active {
+button:active {
     opacity: 0.8;
 }
 
 
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 640px) {
 
     main {
-
-        padding-left: 125px;
-        margin-top: 40px;
+        padding-left: 60px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     button {
-        margin: 80px 62px 80px 0;
+        margin: 39px 62px 80px 0;
     }
 
     img {
-        margin: 30px 132px 0 199px;
-        width: 300px;
+        margin: 30px 131px 0 133px;
+        width: 270px;
     }
 
     .input-min {
